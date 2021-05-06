@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class CharacterStats : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    public float health;
+    public int stamina, mana, defense, resistance;
+    public int strength, dexterity, constitution, intellect, luck;
+
+
+
+    [System.Serializable]
+    public class CombatStats
     {
-        
+        public float attackPower;
+        public float defense;
+        public float dodge;
     }
 }
