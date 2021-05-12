@@ -19,3 +19,4 @@ public class CharacterStats : MonoBehaviour
         public float dodge;
     }
 }
+ 
