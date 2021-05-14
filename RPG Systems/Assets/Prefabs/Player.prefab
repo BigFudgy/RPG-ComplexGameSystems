@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 6292497380631370577}
   - component: {fileID: 2020430102242608386}
   - component: {fileID: 7330402762401242316}
-  - component: {fileID: 4875248433655872210}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -97,25 +96,3 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &4875248433655872210
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8090151384477066705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db2d04a6cfd51d642a418e1e9a075213, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 0
-  stamina: 0
-  mana: 0
-  defense: 0
-  resistance: 0
-  strength: 0
-  dexterity: 0
-  constitution: 0
-  intellect: 0
-  luck: 0
