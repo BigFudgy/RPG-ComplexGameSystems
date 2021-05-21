@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db2d04a6cfd51d642a418e1e9a075213, type: 3}
   m_Name: PlayerStats
   m_EditorClassIdentifier: 
-  health: 0
-  stamina: 0
-  mana: 0
-  defense: 0
-  resistance: 0
-  strength: 0
-  dexterity: 0
-  constitution: 0
-  intellect: 0
-  luck: 0
-  exp: 0
+  charName: Player
+  health: 100
+  stamina: 50
+  mana: 50
+  defense: 10
+  resistance: 10
+  strength: 5
+  dexterity: 5
+  constitution: 5
+  intellect: 5
+  luck: 5
