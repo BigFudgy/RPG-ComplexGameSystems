@@ -4,6 +4,7 @@ using UnityEngine;
 
 public enum AttributeType
 {
+    None = -1,
     Health = 0,
     Mana  = 1,
     Stamina = 2
@@ -11,10 +12,12 @@ public enum AttributeType
 [CreateAssetMenu (menuName = "RPG Systems/Player/Attribute")]
 public class Attribute : ScriptableObject
 {
+    
     public string attName;
     public string description;
     public int value;
     public Sprite Thumbnail;
     public AttributeType attributeType;
+    public StatModType modifierType;
 
 }

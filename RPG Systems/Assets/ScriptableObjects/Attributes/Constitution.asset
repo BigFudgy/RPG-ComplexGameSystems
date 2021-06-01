@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attName: Constitution
   description: Increases Base Health
-  value: 10
+  value: 20
   Thumbnail: {fileID: 0}
   attributeType: 0
+  modifierType: 1
