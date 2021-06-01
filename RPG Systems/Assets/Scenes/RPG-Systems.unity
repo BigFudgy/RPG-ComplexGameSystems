@@ -592,6 +592,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5abb4cdc31453a143b6d904a4e89c991, type: 3}
+--- !u!1 &1304030121 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5abb4cdc31453a143b6d904a4e89c991, type: 3}
+  m_PrefabInstance: {fileID: 1304030120}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1304030122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304030121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db2d04a6cfd51d642a418e1e9a075213, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charName: Player
+  health: 100
+  stamina: 50
+  mana: 50
+  defense: 10
+  resistance: 10
+  Attributes:
+  - {fileID: 11400000, guid: d4367b0536b5e7247b1e84bdbd18f2e9, type: 2}
+  - {fileID: 11400000, guid: 5a4d36ad3c6cff745872956021c3f373, type: 2}
+  - {fileID: 11400000, guid: bab48db01736357418a0183af2bec3ab, type: 2}
 --- !u!1 &1422606749
 GameObject:
   m_ObjectHideFlags: 0
