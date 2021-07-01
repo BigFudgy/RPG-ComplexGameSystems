@@ -31,7 +31,7 @@ public class CameraController : MonoBehaviour
 		transform.position = target.position - offset * currentZoom;
 		transform.LookAt(target.position + Vector3.up * pitch);
 
-		currentYaw -= Input.GetAxisRaw("HoriRotate") * yawSpeed * Time.deltaTime;
+		currentYaw += Input.GetAxisRaw("HoriRotate") * yawSpeed * Time.deltaTime;
 		transform.RotateAround(target.position, Vector3.up, currentYaw);
 	}
 }

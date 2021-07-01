@@ -2202,7 +2202,7 @@ MonoBehaviour:
   pitch: 1
   maxZoom: 5
   minZoom: 2
-  yawSpeed: 10
+  yawSpeed: 150
   newRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &1924059905 stripped
 MonoBehaviour:
@@ -2553,6 +2553,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2850832765634839104, guid: 6c763b15f889d2440b423ea060709f9d, type: 3}
+      propertyPath: charName
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 2850832765634839105, guid: 6c763b15f889d2440b423ea060709f9d, type: 3}
       propertyPath: m_Name
       value: Player
